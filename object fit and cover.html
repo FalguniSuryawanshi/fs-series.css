@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>object fit-cover</title>
+    <style>
+        .container{
+            height: 634px;
+            width: 688px;
+            /* background-color: aqua; */
+            background-position: center center;
+            border: 2px solid yellowgreen;
+            background-image: url("https://images.hdqwalls.com/wallpapers/winter-snow-trees-nature-outdoors-ar.jpg");
+
+        }
+        img{
+            width: 688px;
+            height: 634px;
+            /* object-fit: contain; */
+            /* object-position: top right; */
+            object-fit: fill;
+            object-position: 10px 20px;
+        }
+
+     </style>
+</head>
+<body>
+    <div class="container">
+        <!-- <img src="https://images.hdqwalls.com/wallpapers/winter-snow-trees-nature-outdoors-ar.jpg" alt="no"> -->
+
+    </div>
+</body>
+</html>

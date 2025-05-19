@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css selector </title>
+     <style>
+
+        /*element selector*/
+        div{
+          /*  background-color: red;*/
+        }
+        /*class selector*/
+        .red{
+            background-color: red;
+        }
+        
+        /*id selector*/
+
+        #green{
+            background-color: green;
+
+        }
+        /*child selector*/
+        div > p {
+            color: rgb(194, 194, 232);
+            background-color: brown;
+
+        }
+        /*descendant selector*/
+        div  p {
+            color: rgb(194, 194, 232);
+            background-color: brown;
+
+        }
+        /*universal selector*/
+    
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        /* pseudo selector */
+        a:visited{
+            color: blueviolet;
+        }
+
+        a:link{
+            color: green;
+        }
+        a:active{
+            background-color: rgb(186, 152, 100);
+        }
+        a:hover{
+            background-color: blue;
+        }
+        p:first-child{
+            background-color: aqua;
+        }
+
+     </style>
+</head>
+<body>
+    <main class="one">
+        <p> ia m first child</p>
+        <p> i am second</p>
+    </main>
+     <div class="red">
+        i am a falguni 
+        <article>
+        <p> i am a para inside div</p>
+        </article>
+     </div>
+
+     <div id="green">
+        i am good 
+        </div>
+        
+     <div>
+        <a href="https://www.google.com">Go to google </a>
+     </div>
+</body>
+</html>
